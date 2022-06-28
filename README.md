@@ -1,1 +1,1 @@
-# airplane_classification
+# Airplane Classification
