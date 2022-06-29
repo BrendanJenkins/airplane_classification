@@ -1,16 +1,15 @@
 # Airplane Classification
 
-For this project [Michael Reigleman](https://github.com/mtreigelman)
+Contributors: [Michael Reigeleman](https://github.com/mtreigelman) and [Brendan Jenkins](https://github.com/BrendanJenkins).
 
-Hello I am Brendan Jenkins | LinkedIn: [@brendanwjenkins](https://www.linkedin.com/in/brendanwjenkins/)
+## Introduction
 
-I am currently a graduate student in the Master of Science in Data Science program at the University of San Francisco, with an expected graduation date of July 2022.
+This repository contains python code and instructions on how to train Convultional Neural Networks to classify aircraft from a databank of images. 
 
-I am currently a Data Science Intern for the New York Mets, where I have been working on improving their defensive positioning model.
+## Data
 
-Many of the projects that I have completed in this program are private. If you would like to know more about a project listed below, feel free to contact with me on [LinkedIn](https://www.linkedin.com/in/brendanwjenkins/) and I will be happy to walk you through the project.
+The data can be found [here](https://paperswithcode.com/dataset/fgvc-aircraft-1). It contains 10,200 images for 70 different families and 30 different manufacturers. A family of aircraft is the manufacturer and model for the plane (i.e. Boeing 707). The manufacturer is who makes the plane (i.e. Boeing or Airbus). The images are prelabeled in text files that are included in the data. 
 
-Before attending graduate school, I played two season of professional baseball and attented the University of San Francisco where I earned my Bachelor of Science in Mathematics while serving as the closing pitcher for the baseball team.
+## Pre-Processing
 
-## Machine Learning Projects
-[Kaggle Competition (within USF cohort):](https://www.kaggle.com/competitions/predicting-implicit-ratings-usfca-2022)
+All the images had a banner at the bottom that needed to be cropped. So we used `Cropping_Pre_Processing.ipynb`
