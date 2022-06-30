@@ -44,7 +44,7 @@ Incorrectly Classified Planes:
 
 ### Manufacturer Classification Model
 
-For this task we used a CNN with the same architecture as our first family classification model, reference the `Manufacturer_Prediction_Model.ipynb` notebook. With less classes to predict we saw an increase in true accuracy to 52%. For this model we added the hyperparameters of a dynamic learning rate and reshuffled our training and validation data every 3 epochs to improve model generality and performance.
+For this task we used a CNN with the same architecture as our first family classification model, reference the `Manufacturer_CNN.ipynb` notebook. With less classes to predict we saw an increase in true accuracy to 52%. For this model we added the hyperparameters of a dynamic learning rate and reshuffled our training and validation data every 3 epochs to improve model generality and performance.
 
 Model Performance During Training:
 
