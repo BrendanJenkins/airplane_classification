@@ -29,7 +29,7 @@ For the first task to classify the Family of the aircraft. For our first model w
 
 Since this was low, we decided to use the VGG-16 pre-trained model. We froze all the weights in the model except for the last linear layer. This resulted in a top 5 accuracy of 40%.
 
-Correctly Classified Planes: ![1129244](https://user-images.githubusercontent.com/31257694/176591700-6c5af56a-8341-4f08-b8f0-faf994f7ede1.jpg =250x250)
+Correctly Classified Planes: ![1129244](https://user-images.githubusercontent.com/31257694/176591700-6c5af56a-8341-4f08-b8f0-faf994f7ede1.jpg=250x250)
 
 
 Incorrectly Classified Planes:
