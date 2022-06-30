@@ -29,9 +29,9 @@ The CNN for family classification finished with a top 5 accuracy of 23% while th
 
 ### Family Classification Models
 
-For the first task to classify the Family of the aircraft. For our first model we created our own CNN that contained 4 convolutional layers followed by 2 linear layers. This model did not perform as well as we would have liked, only getting the correct family 8% of the time. We expanded our accuracy metric to the top 5 accuracy, where if the correct label was in the top 5 probabilities it is counted as a correct prediction. The top 5 accuracy for this model was 23%.
+For the first task to classify the Family of the aircraft. For our first model, in the `Family_CNN.ipynb` notebook, we created our own CNN that contained 4 convolutional layers followed by 2 linear layers. This model did not perform as well as we would have liked, only getting the correct family 8% of the time. We expanded our accuracy metric to the top 5 accuracy, where if the correct label was in the top 5 probabilities it is counted as a correct prediction. The top 5 accuracy for this model was 23%.
 
-Since this was low, we decided to use the VGG-16 pre-trained model. We froze all the weights in the model except for the last linear layer. This resulted in a top 5 accuracy of 40%.
+Since this was low, we decided to use the VGG-16 pre-trained model. We froze all the weights in the model except for the last linear layer. This resulted in a top 5 accuracy of 40%. This work was done in the `Family_VGG.ipynb` notebook.
 
 Correctly Classified Planes:
 
@@ -44,7 +44,7 @@ Incorrectly Classified Planes:
 
 ### Manufacturer Classification Model
 
-For this task we used a CNN with the same architecture as our first family classification model. With less classes to predict we saw an increase in true accuracy to 52%. For this model we added the hyperparameters of a dynamic learning rate and reshuffled our training and validation data every 3 epochs to improve model generality and performance.
+For this task we used a CNN with the same architecture as our first family classification model, reference the `Manufacturer_Prediction_Model.ipynb` notebook. With less classes to predict we saw an increase in true accuracy to 52%. For this model we added the hyperparameters of a dynamic learning rate and reshuffled our training and validation data every 3 epochs to improve model generality and performance.
 
 Model Performance During Training:
 
