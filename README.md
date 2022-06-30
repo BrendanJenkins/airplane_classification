@@ -33,16 +33,22 @@ For the first task to classify the Family of the aircraft. For our first model w
 
 Since this was low, we decided to use the VGG-16 pre-trained model. We froze all the weights in the model except for the last linear layer. This resulted in a top 5 accuracy of 40%.
 
-Correctly Classified Planes: ![](https://github.com/BrendanJenkins/airplane_classification/blob/main/images/good/1129244.jpg)
+Correctly Classified Planes:
+
+![](https://github.com/BrendanJenkins/airplane_classification/blob/main/images/good/1129244.jpg)
 
 
-Incorrectly Classified Planes: ![](https://github.com/BrendanJenkins/airplane_classification/blob/main/images/bad/0676942.jpg)
+Incorrectly Classified Planes:
+
+![](https://github.com/BrendanJenkins/airplane_classification/blob/main/images/bad/0676942.jpg)
 
 ### Manufacturer Classification Model
 
 For this task we used a CNN with the same architecture as our first family classification model. With less classes to predict we saw an increase in true accuracy to 50%. For this model we added the hyperparameters of a dynamic learning rate and reshuffled our training and validation data every 3 epochs to improve model generality and performance.
 
 Model Performance During Training:
+
+![](https://github.com/BrendanJenkins/airplane_classification/blob/main/images/manufacturer_model_performance.jpg)
 
 ## Conclusion
 
