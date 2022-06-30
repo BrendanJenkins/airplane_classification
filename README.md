@@ -25,6 +25,8 @@ We developed models for two classification tasks.
 
 The CNN for famliy classification finished with a top 5 accuracy of 23% while the VGG finished with a top 5 accuracy of 42.3%. Below is a visual representation of the VGG architecture.
 
+![](https://github.com/BrendanJenkins/airplane_classification/blob/main/images/vgg-16.png)
+
 ### Family Classification Models
 
 For the first task to classify the Family of the aircraft. For our first model we created our own CNN that contained 4 convolutional layers followed by 2 linear layers. This model did not perform as well as we would have liked, only getting the correct family 8% of the time. We expanded our accuracy metric to the top 5 accuracy, where if the correct label was in the top 5 probabilities it is counted as a correct prediciton. The top 5 accuracy for this model was 23%.
